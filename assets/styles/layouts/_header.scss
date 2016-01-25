@@ -1,0 +1,62 @@
+header.top-banner {
+    border-bottom:1px solid $light-grey;
+    margin-top:20px;
+    @include font-size(1.2);
+
+    color:$light-grey;
+    div[class*=' col-'],div[class^='col-'] {
+        padding-bottom: 5px;
+        border-right:1px solid $light-grey;
+    }
+    a {
+        color:$light-grey;
+    }
+    .list-inline{
+        li {
+            margin:0 3em;
+        }
+    }
+
+}
+
+header.banner {
+
+    .brand {
+        margin:5em auto;
+        width:300px;
+        display:block;
+        text-align: center;
+    }
+    .navbar-nav {
+        @include font-size(1.6);
+        width: 100%;
+        display: table;
+
+        text-align: center;
+        font-weight:600;
+        > li {
+            float: none;
+            display: table-cell;
+            text-align: center;
+            text-transform: uppercase;
+            a {
+                display: block;
+            }
+            &:first-child {
+                text-align: left;
+            }
+            &:last-child {
+                text-align: right;
+            }
+            &:hover,
+            &.current-menu-item {
+                a {
+                    background:none;
+                    color:$light-coul;
+                }
+
+            }
+          }
+    }
+
+}

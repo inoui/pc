@@ -1,0 +1,42 @@
+// -----------------------------------------
+// Layout Breakpoints
+// -----------------------------------------
+$maxWidth: 1280;
+
+$base-space-unit:       1em !default;
+$base-radius-unit:      3px !default;
+
+
+// -----------------------------------------
+    // Colors
+// -----------------------------------------
+// $white: #fffefe;
+// $black: #202020;
+// $grey: #2c3e50;
+// $darkgrey: #95a5a6;
+// $dark: #2c3e50;
+
+
+$white: #ffffff;
+$black: #202020;
+$grey: #a9a4a0;
+$darkgrey: #95a5a6;
+$dark: #2c3e50;
+$lightGrey:#cbcbcb;
+$bgHover:#E9F8FF;
+
+$bgColor:#fff;
+$bgColorA: rgba(239, 253, 255, .3);
+
+$loader: #4C537C;
+// $darkblue: #321B57;
+
+
+
+$purple: #d3d0eb;
+$notice: #3498db;
+$success: #1abc9c;
+$alert: #e74c3c;
+
+$border-color: #ecf0f1;
+$border-color--dark: #bdc3c7;
